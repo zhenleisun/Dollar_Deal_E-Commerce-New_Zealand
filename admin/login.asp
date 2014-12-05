@@ -48,10 +48,12 @@ body {
   <div align="left"><input class="wenbenkuang" <% if jianpankai=1 then %>onclick= "password1=this;showkeyboard();this.readOnly=1;Calc.password.value=''"<% end if %> name="password" type="password" id="password" size="20"></div></td>
 </tr>
 <tr> 
+<!--  注释掉验证码
 <td><div align="right">程序验证码：</div></td>
 <td align="center"><div align="left">
       <input class=wenbenkuang name=verifycode type=text value="<%If GetCode=9999 Then Response.Write "9999"%>" maxlength=4 size=10>  
       <a href='javascript:refreshimg()' title='看不清楚，换个图片'><img  id='checkcode' src="../GetCode.asp" border="0" /></a></div></td>
+-->
 </tr>
 <tr>
   <td><div align="right">

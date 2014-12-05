@@ -8,10 +8,14 @@ if username="" or userpassword="" then
 response.write "<script LANGUAGE='javascript'>alert('Your username or password is incorrect£¡');history.go(-1);</script>"
 response.end
 end if
+    %>
+    <!-- ÎÞÐëÑéÖ¤Âë
 if cstr(session("getcode"))<>cstr(trim(request("verifycode"))) then
 response.Write "<script LANGUAGE='javascript'>alert('Please enter the correct verification code£¡');history.go(-1);</script>"
 response.end
 end if
+    -->
+<%
 set rs=server.CreateObject("adodb.recordset")
 rs.Open "select * from [user] where username='"&username&"' and userpassword='"&userpassword&"' " ,conn,1,3
 if not(rs.bof and rs.eof) then

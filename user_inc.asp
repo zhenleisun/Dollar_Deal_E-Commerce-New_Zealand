@@ -199,12 +199,14 @@ if request.cookies("Cnhww")("username")<>"" then
                     <td width="152"><input name="userpassword" class="wenbenkuang" type="password" id="userpassword" maxLength="18" size="18">
 <input class="wenbenkuang" type="hidden" name="linkaddress" value="<%=request.servervariables("http_referer")%>"></td>
                   </tr>
+<!--×¢ÊÍµôÑéÖ¤Âë
 <tr> 
 <td width="75"  height="30"><span class="style1">¡¤</span>Code£º</td>
 <td width="152">
 <input class=wenbenkuang name=verifycode type=text value="<%If GetCode=9999 Then Response.Write "9999"%>" maxLength=4 size=10>
 <img src=GetCode.asp></td>
 </tr>
+                  -->
               </table>
 			  <%else%>
 <%response.redirect("index.asp")%>
