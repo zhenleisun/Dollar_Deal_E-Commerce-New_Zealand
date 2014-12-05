@@ -4,7 +4,7 @@
 	<div class="top_t">
 		<table width="961" border="0" cellspacing="0" cellpadding="0">
 		  <tr>
-			<td width="337" height="94" align="left"><img src="<%=weblogo%>" width="337" height="94" /></td>
+			<td width="337" height="94" align="left"><a href="index.asp"><img src="<%=weblogo%>" width="337" height="94"/></a></td>
 			<td width="450"><img src="images/ds_03.jpg" width="450" height="94" /></td>
 			<td width="174" align="left" valign="top" background="images/ds_04.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
