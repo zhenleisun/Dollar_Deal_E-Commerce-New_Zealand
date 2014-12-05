@@ -1,0 +1,114 @@
+A:link {
+	COLOR: #345976; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #345976; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #345976; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+BODY {
+	BACKGROUND-POSITION: center 50%; FONT-SIZE: 12px; COLOR: #000000; SCROLLBAR-ARROW-COLOR: #bcbcbc; FONT-FAMILY: 宋体; SCROLLBAR-BASE-COLOR: #f8f8f8; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 15px; FONT-FAMILY: 宋体
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px;COLOR: #315973; BACKGROUND-COLOR: #D6DEC6
+}
+TD.TableTitle2 {
+	BORDER-RIGHT: #dedede 1px solid; BORDER-TOP: #dedede 1px solid; BORDER-LEFT: #dedede 1px solid; BORDER-BOTTOM: #dedede 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+TD.TableBody1 {
+	BACKGROUND-COLOR: #EFF0E2
+}
+TD.TableBody2 {
+	BACKGROUND-COLOR: #EFF0E2
+}
+TD.TopLighNav2 {
+	BACKGROUND-COLOR: #ffffff
+}
+.tableBorder1 {
+	BORDER-RIGHT: #bdbebd 1px; BORDER-TOP: #bdbebd 1px; BORDER-LEFT: #bdbebd 1px; WIDTH: 720px; BORDER-BOTTOM: #bdbebd 1px; BACKGROUND-COLOR: #bdbebd
+}
+.tableBorder2 {
+	BORDER-RIGHT: #bdbebd 1px solid; BORDER-TOP: #bdbebd 1px solid; BORDER-LEFT: #bdbebd 1px solid; WIDTH: 720px; BORDER-BOTTOM: #bdbebd 1px solid; BACKGROUND-COLOR: #fffbff
+}
+#TableTitleLink A:link {
+	COLOR: #315973; TEXT-DECORATION: none
+}
+#TableTitleLink A:visited {
+	COLOR: #315973; TEXT-DECORATION: none
+}
+#TableTitleLink A:active {
+	COLOR: #315973; TEXT-DECORATION: none
+}
+#TableTitleLink A:hover {
+	COLOR: #74acdc; TEXT-DECORATION: line-through
+}
+INPUT {
+	BORDER-RIGHT: #bdbebd 1px solid; BORDER-TOP: #bdbebd 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #bdbebd 1px solid; COLOR: #000000; BORDER-BOTTOM: #bdbebd 1px solid; BACKGROUND-COLOR: #fffbff
+}
+SELECT {
+	BORDER-RIGHT: #bdbebd 1px solid; BORDER-TOP: #bdbebd 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #bdbebd 1px solid; COLOR: #000000; BORDER-BOTTOM: #bdbebd 1px solid; BACKGROUND-COLOR: #fffbff
+}
+TEXTAREA {
+	BORDER-RIGHT: #bdbebd 1px dotted; BORDER-TOP: #bdbebd 1px dotted; FONT-SIZE: 12px; BORDER-LEFT: #bdbebd 1px dotted; BORDER-BOTTOM: #bdbebd 1px dotted; FONT-FAMILY: tahoma
+}
+.normalTextSmall {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A.navlink:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.navlink:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.navlink:hover {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+.BrightClass {
+	BACKGROUND-COLOR: #d7d7d7
+}
+DIV.quote {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; BACKGROUND: #fffbff; PADDING-BOTTOM: 5px; MARGIN: 5px 20px; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid
+}
+DIV.HtmlCode {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: #fdfddf; PADDING-BOTTOM: 5px; MARGIN: 5px 20px; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; FONT-STYLE: oblique; FONT-FAMILY: Tahoma
+}
+
+/*=======下拉菜单========>>>*/
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}
+/*==========下拉菜单结束=========<<<*/
+/* ====版规样式==== */
+.rule{margin:10px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}

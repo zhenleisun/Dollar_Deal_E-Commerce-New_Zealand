@@ -1,0 +1,1 @@
+<% if dhxg=1 then %><!--#include file="pichead.asp"--><%else %><!--#include file="wordhead.asp"--><%end if %>

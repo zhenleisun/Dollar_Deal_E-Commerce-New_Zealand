@@ -1,0 +1,251 @@
+﻿/* CSS Document */
+
+
+
+
+/*======Show.asp相关==============>>>*/
+
+/*主题状态的小表格，如:精华等*/
+.topicmood{ 
+border:1px solid #FFA200;
+padding:3px;
+background:#FFF5BC;
+}
+/*引用表格*/
+.quote{
+margin:10px 20px;
+padding:5px;
+background:#EEEEEF;
+border:1px dashed #CCC ;
+}
+/*评帖表格*/
+.appraise{
+border:1px solid #CCC;
+background-color:#F5FAFC;
+padding:5px;
+margin:5px 20px;
+}
+/*屏蔽表格*/
+.cover{
+border:1px solid #CCC;
+width:200px;
+text-align:center;
+background-color:#F5FAFC;
+padding:5px;
+}
+/*======Show.asp相关结束====<<<*/
+
+/*标题*/
+.title{
+background:url(bg.gif);
+height:22px;
+text-align: left;
+font-weight:bold;
+text-indent:8px;
+padding:13px 0 0 0;
+}
+.title1{
+background:url(bg1.gif);
+border-bottom:#D2DFE6 1px solid;
+height:18px;
+text-align: left;
+font-weight:bold;
+text-indent:8px;
+padding:10px 0 0 0;
+}
+
+body,td,div,li,input,select,textarea{font-size:12px;font-family:verdana;}
+body{
+background:none;
+margin:0px;
+color:#333333;
+text-align:center;
+}
+.BBSW{width:98%;}
+
+.Mian{
+border:#7AADC8 1px solid;
+text-align:left;
+background:#FFFFFF;
+min-width:760px;
+margin:8px auto;
+}
+.mian1{
+border-top: #7AADC8 1px solid;text-align:left
+}
+.Mian2{
+border-top:#7AADC8 1px solid;
+border-left:#7AADC8 1px solid;
+border-right:#7AADC8 1px solid;
+text-align:left;
+background:#FFFFFF;
+min-width:760px;
+}
+.mtop{
+border:#FFF 1px solid;
+min-width:760px;
+padding:5px 0 5px 0;
+overflow:hidden;
+text-align:left;
+}
+.YourPath{
+text-align:left;
+}
+.topmenu{
+border:#7AADC8 1px solid;
+text-align:left;
+background:#FFFFFF;
+min-width:760px;
+margin:8px auto;
+
+background:url(menu_bg.gif);
+height:20px;
+text-align:left;
+text-indent:5px;
+padding:4px 0 0 0;
+}
+.boardname{
+line-height:22px;
+font-weight:bold;
+text-align:left
+}
+.boardimg{
+MARGIN-TOP: 4px;
+FLOAT: right;
+MARGIN-RIGHT: 5px;
+}
+.boardbottom{
+text-align:left;
+border-top: #D2DFE6 1px solid;
+padding:5px 0 4px 51px;
+background:#F8FFF5
+}
+.bartop{
+height:25px;
+line-height:25px;
+text-align:center;
+border-left: #FFF 1px solid;
+border-right: #FFF 1px solid;
+overflow:hidden
+}
+.Topic{
+border-top:1px #D2DFE6 solid;
+line-height:30px;
+text-align:left;
+background: #FFFFFF;
+overflow:hidden;
+}
+.TopicTitle{
+width:39%;
+overflow:hidden;
+text-align:left;
+
+}
+
+.mood img{
+margin-top:6px;
+}
+.TopicTitle img{
+margin-top:6px;
+}
+
+
+.boardcontent{border:#FFFFFF 1px solid;
+background:#FFFFFF;
+}
+.EssayLeft{padding:3px;
+text-indent:18px;
+float:left;
+width:184px;
+}
+.barbottom{
+height:4px;
+background:#8394B2;
+border:#547ABA 1px solid;
+overflow:hidden
+}
+.onlinepage{
+text-align:right; padding:1px; border:1px solid;background:#FFFFFF;margin-right:15px; float:right}
+.page{
+background:#FFFFFF; padding:5px; float:right}
+.essayright{
+margin-left:190px;border-left:#D2DFE6 1px solid; padding:3px
+}
+.appionttb{
+border-collapse: collapse;
+WORD-BREAK: break-all;
+border-top:0px;
+}
+.appionttb td{
+BORDER-TOP: 0px;
+}
+
+a:link{text-decoration:none;color:#2779A5}
+a:visited{text-decoration:none;color:#2779A5}
+a:hover{text-decoration:none;color:#FF9900}
+input,select,textarea{
+border:#999999 1px solid;
+background:#FFFFFF;
+}
+
+.bottom{text-align:left; border-top:1px #D2DFE6 solid;padding:10px;background:#F6FBFE}
+
+/*系统预设，不能删除*/
+.button{border:#999999 1px solid;background:#FFFFFF;height:20px;}
+.text{height:16px;}
+.gopage{border:#999999 1px solid;background:#FFFFFF;height:20px;}
+.gotextpage{border:#999999 1px solid;background:#FFFFFF;height:16px;}
+.checkbox{border:0px}
+hr{color:#D2DFE6;height:1px}
+.BoardKey{padding:20px}
+.TopicKey{padding:10px}
+
+.pageDiv{border:1px #7AADC8 solid;height:24px;float:right;}/*分页总框*/
+.IsPage{float:left;padding:5px;color:#FFFFFF;font-weight:bold;background:#7AADC8}/*当前页*/
+.InPage{float:left;padding:5px}/*分页列表*/
+.InPage1{float:left;padding:9px 5px}
+.PageText{float:left;border-left:1px #7AADC8 solid;padding:5px}/*其它字符*/
+.PageText1{float:left;border-right:1px #7AADC8 solid;padding:5px}/*其它字符*/
+.PageText2{float:left;border-left:1px #7AADC8 solid;padding:1px 3px}/*其它字符 跳转框*/
+.pagebutton{border:#D2DFE6 1px solid;background:#FFFFFF;height:20px;}
+.pageText{border:#D2DFE6 1px solid;background:#FFFFFF;height:16px;text-align:center}
+
+.FontZoom{border:1px #7AADC8 solid;margin:0 5px 0 0;cursor:pointer;color:#2779A5;padding:2px 2px 0 3px;background:#F6FBFE}/*字体大小*/
+.BoardLine{background:#7AADC8;height:1px}/*版块简版显示时的行分隔线*/
+
+a.black:link{text-decoration:none;color:#333333}
+a.black:visited{text-decoration:none;color:#333333}
+a.black:hover{text-decoration:none;color:#333333}
+
+/* ====版规样式==== */
+.rule{margin:2px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}
+
+
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}

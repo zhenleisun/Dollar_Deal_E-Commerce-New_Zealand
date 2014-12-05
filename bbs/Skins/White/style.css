@@ -1,0 +1,137 @@
+/*=======下拉菜单========>>>*/
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}
+/*==========下拉菜单结束=========<<<*/
+/*标题*/
+.title{
+	background: #edeff1;
+	color: #283a5e;
+	font-family: Verdana, Tahoma, sans-serif;
+	padding: 3px;
+	font-weight: bold;
+	border-bottom: #aaa solid 1px;
+}
+
+/*======Show.asp相关==============>>>*/
+/*主题状态的小表格，如:精华等*/
+.topicmood{
+	border: 1px solid #f00;
+	padding: 3px;
+	background: #fff;
+}
+
+/*引用表格*/
+.quote{
+	margin: 5px 20px;
+	padding: 5px;
+	background: #eeeeef;
+	border: 1px solid #ccc;
+}
+
+/*评帖表格*/
+.appraise{
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 5px 20px;
+	background: #f5fafc;
+}
+
+/*屏蔽表格*/
+.cover{
+	border: 1px solid #ccc;
+	width: 200px;
+	text-align: left;
+	padding: 5px;
+	background: #f5fafc;
+}
+
+/*======Show.asp相关结束====<<<*/
+/*	全局定义　*/
+form {
+	margin: 0;
+}
+
+.grid	{
+	border: 1px solid #e5e3e3;
+}
+
+.nogrid	{
+	border: 0px !important;
+}
+
+.smallbox	{
+	height: 12px !important;
+	height: 15px;
+	border: 0px !important;
+}
+
+.cursor	{
+	cursor: hand;
+}
+
+.ubbButton	{
+	font: 12px 宋体, Verdana, Tahoma, Arial, sans-serif;
+	border-right: 1px #a9a9a9 solid;
+	border-bottom: 1px #a9a9a9 solid;
+	width: 19px;
+	height: 18px;
+	padding-top: -2px;
+	padding-left: 1px;
+	background: buttonface;
+}
+
+.th {
+	color: #283a5e;
+	background: #fff;
+}
+
+/*	[必须项] 弹出层	*/
+#poplayer	{
+	position: absolute;
+	z-index: 9;
+	text-align: left;
+	border: 1px #333 solid;
+	padding: 1px 3px;
+	background: #fff;
+	filter: Alpha(Opacity=0);
+}
+
+/*	[可选项] 表格标题行超连接	*/
+.titleanchor a	{
+	color: #000;
+	text-decoration: none;
+	background: transparent;
+}
+
+.titleanchor a:hover	{
+	color: #000;
+	text-decoration: underline;
+}
+/* ====版规样式==== */
+.rule{margin:10px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}

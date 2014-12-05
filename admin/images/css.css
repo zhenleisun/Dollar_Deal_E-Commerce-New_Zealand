@@ -1,0 +1,132 @@
+
+Body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-width: 0px;
+	/* 网页非链接普通文字样式定义 */
+	color: #333333;
+	font-size: 9pt;
+	font-family: 宋体;
+	text-align: justify;
+	/* 网页背景颜色定义 */
+	background: #FFFFFF;
+	/* 网页背景图片定义 */
+	/* background-image:url('dot.GIF') */
+}
+td,span {
+	font-size: 9pt;
+	font-family: 宋体;
+}
+input,textarea,select
+{
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: "宋体";
+}
+.input
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: #000000;
+    BORDER-BOTTOM: #000000 1px solid;
+    FONT-FAMILY: "宋体";
+}
+
+ /*表格背景色td之上，链接文字着色1*/
+
+ a:link {
+	color: #0045CE;
+	TEXT-DECORATION: none
+	}
+ a:hover {
+	color: #FF7B2F;
+	TEXT-DECORATION: none
+	}
+ a:visited {
+	color: #0045CE;
+	TEXT-DECORATION: none
+	}
+
+ /*表格背景色td之上，链接文字着色2*/
+
+ a.link_on_td:link {
+	color: #666666;
+	TEXT-DECORATION: none
+	}
+ a.link_on_td:hover {
+	color: #000000;
+	TEXT-DECORATION: none
+	}
+ a.link_on_td:visited {
+	color: #666666;
+	TEXT-DECORATION: none
+	}
+
+ /*背景色tdbg_1之上，链接文字着色*/
+ a.LinkColor_1:link {
+	color: #FFFFFF;
+	TEXT-DECORATION: none
+	}
+ a.LinkColor_1:hover {
+	color: #FFdBdF;
+	TEXT-DECORATION: none
+	}
+ a.LinkColor_1:visited {
+	color: #FFFFFF;
+	TEXT-DECORATION: none
+	}
+
+ /*背景GrayBg.gif之上，链接文字着色*/
+ a.menuColor_1:link {
+	color: #0045CE;
+	TEXT-DECORATION: none
+	}
+ a.menuColor_1:hover {
+	color: #FF7B2F;
+	TEXT-DECORATION: none
+	}
+ a.menuColor_1:visited {
+	color: #0045CE;
+	TEXT-DECORATION: none
+	}
+
+/* 表格的单元格背景色，网页背景色一致 */
+ .tablebg{background:#AAAAE0;}
+ .titletd{Color: #FFFFFF; background:#E0E0E0 url('admin_bg.GIF'); height:28px;}
+ .td{ background: #FFFFFF }
+
+
+ /*主色配置  注：主色最好与首页标题背景线之上颜色配置一致*/
+ .tdbg_1{ background: #0045CE }
+ /*辅色配置*/
+ .tdbg_2{ background: #f6f6f6 }
+
+ /* 系统头部中的五个菜单的图片背景 */
+ .TopMenu_bg{ background-image:url('title_menu_bg_Blue.GIF'); }
+
+
+ /*首页标题背景线之上颜色配置  注：最好与主色配置一致*/
+ .menutdbg_1{ background: #0045CE }
+ /*首页标题背景线之下（短线）颜色配置*/
+ .menutdbg_2{ background: #D0D0D0 }
+ /*首页GrayBg.gif之上，标题字色配置*/
+ .menufont_1{
+ 	font-weight: bold;
+	font-size: 9pt; 
+	color: #0045CE;
+	}
+
+ /*商品信息显示页标题字色配置*/
+ .menufont_2{
+ 	font-weight: bold;
+	font-size: 9pt; 
+	color: #000000;
+	height: 26px;
+	}
+
+ /*背景色tdbg_1之上，非链接文字着色*/
+ .fontcolor_1{ color: #FFFFFF }
+ /*操作提示的文字着色*/
+ .fontcolor_2{ color: #FF4422 }

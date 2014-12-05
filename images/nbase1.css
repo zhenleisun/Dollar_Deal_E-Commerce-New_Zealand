@@ -1,0 +1,53 @@
+@import url("header1.css");
+body,div{margin:0px;padding:0px;color:#000;font-size:12px}
+body{font:normal 12px "Arial", Georgia, "Times New Roman","Î¢ÈíÑÅºÚ", Times, serif;line-height:22px; text-align:center;white-space:normal; word-break:break-all;}
+body .container{width:1003px;text-align:left;margin: 0 auto}
+body .container933{width:933px;text-align:left;margin: 0 auto;}
+ul,li{margin:0px;padding:0px;list-style-type:none}
+img{border:0;}
+
+
+.top{ width:100%; margin:0 auto; text-align:center; background:url(ds_01.jpg) repeat-x;}
+
+.top_t{ height:94px; width:961px; margin:0 auto;}
+.top_c{ height:34px; background:url(ds_06.jpg) no-repeat; width:961px; margin:0 auto;}
+.top_e{ height:423px; width:961px; margin:0 auto;}
+
+
+.top_kuai{ color:#3b3b3b;}
+
+/*.top_nav{ background:url(xxl_08.png) no-repeat; width:1002px; height:57px; margin:0 auto;}*/
+
+.nav{ color:#FFFFFF; font-size:14px; font-weight:bold;}
+.nav:hover{  font-size:14px; font-weight:bold; color:#ffd600;}
+
+
+.end{ width:100%; margin:0 auto; text-align:center;background:url(ds_20.jpg) repeat-x;}
+
+.end_t{ width:961px; margin:0 auto; height:216px;background:url(ds_21.jpg) repeat-x;text-align:center; }
+.end_e{ width:961px; margin:0 auto; height:67px;text-align:center; line-height:67px; font-size:14px; color:#FFF;}
+
+.infouser{ color:#FFF;}
+
+.end_a{ color:#000; font-size:14px;}
+.end_a:hover{ font-size:14px;}
+
+.main{width:100%; margin:0 auto; text-align:center;background:url(ds_07.jpg);}
+
+.shortselect{
+	/*-moz-border-radius:none;  
+    -webkit-border-radius:none;
+	background:none\9; 
+	background:none; 
+    border:none\9;
+	border:none;*/
+}
+	
+.shortselect option{
+	/*-moz-border-radius:none;  
+    -webkit-border-radius:none;
+	background:none;
+	border:none;*/
+}
+
+

@@ -1,0 +1,132 @@
+
+/*=======下拉菜单========>>>*/
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}
+
+input, textarea	{
+	border:			1px #D3E9AF solid;
+}
+input	{	
+	font-family:	宋体;
+	font-size:		12px;
+	height:			18px;
+	padding-top:	0px;
+	padding-left:	2px;
+}
+
+/* ====版规样式==== */
+.rule{margin:25px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}
+/*==========下拉菜单结束=========<<<*/
+
+/*标题*/
+.title{
+background:#BEBEBE;
+padding:3px;
+font-weight:bold;
+border-bottom:#AAA solid 1px;
+}
+
+/*======Show.asp相关==============>>>*/
+
+/*主题状态的小表格，如:精华等*/
+.topicmood{ 
+border:1px solid #F00;
+padding:3px;
+background:#FFF;
+}
+/*引用表格*/
+.quote{
+margin:5px 20px;
+padding:5px;
+background:#EEEEEF;
+border:1px solid #CCC ;
+}
+/*评帖表格*/
+.appraise{
+border:1px solid #CCC;
+background-color:#F5FAFC;
+padding:5px;
+margin:5px 20px;
+}
+/*屏蔽表格*/
+.cover{
+border:1px solid #CCC;
+width:200px;
+text-align:center;
+background-color:#F5FAFC;
+padding:5px;
+}
+/*======Show.asp相关结束====<<<*/
+
+
+
+
+/*====自定义==============>>>*/
+
+body {
+margin: 0px;
+font-family:Verdana;
+font-size:9pt;
+scrollbar-face-color:'#DFE7EC';
+scrollbar-shadow-color:'#DFE7EC';
+scrollbar-highlight-color:'#DFE7EC';
+scrollbar-3dlight-color:'#BFCFDA';
+scrollbar-darkshadow-color: '#698FA8';
+scrollbar-track-color:'#F4F7F9';
+scrollbar-arrow-color:'#698FA8' ;
+}
+tr,td{
+font-family:Verdana;
+font-size:9pt;
+}
+.appionttb{
+border-collapse: collapse;
+WORD-BREAK: break-all;
+border-top:0px;
+}
+.appionttb td{
+BORDER-TOP: 0px;
+}
+a:link{text-decoration:none;
+color:#000000
+}
+a:visited{
+text-decoration:none;
+color:#000000
+}
+a:hover{
+text-decoration:none;
+color:#5D7790
+}
+input,select,textarea{
+Verdana; font-size: 9pt;
+FONT-SIZE: 9pt;
+FONT-FAMILY: Tahoma,Verdana;
+}
+

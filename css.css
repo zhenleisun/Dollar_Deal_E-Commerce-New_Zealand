@@ -1,0 +1,128 @@
+body {
+scrollbar-face-color:#f9f9f9;
+scrollbar-shadow-color:#cccccc;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-track-color: white;
+scrollbar-arrow-color: #cccccc;
+}
+
+table {
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	text-decoration: none;
+}
+A.a01 {
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+	filter: Shadow(Color=#333333, Direction=90);
+}
+A.a01:hover { font-size: 12px;
+	color: #FFFF00;
+	text-decoration: none;}
+
+A {
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	text-decoration: none;
+}
+A:hover {
+	font-size: 12px;
+	line-height: 22px;
+	color: #CC3300;
+	text-decoration: underline;
+}
+.form {
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	background-color: FFFBFB;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #666666;
+
+
+
+}
+.form2 {
+	font-size: 12px;
+	color: #FFFF00;
+	text-decoration: none;
+	background-color: 539B1F;
+	border: 1px solid #FFFFFF;
+
+
+
+
+}
+.form3 {
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	background-color: FBFBFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #666666;
+
+
+
+}
+.form4 {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: 278BC2;
+	border: 1px solid #FFFFFF;
+
+
+
+
+}
+.button {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+	background-color: #FFCC00;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #FFFFFF;
+
+}
+.date {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #FF6666;
+	text-decoration: none;
+}
+.bg01 {
+	background-repeat: no-repeat;
+}
+.unnamed2 {
+	font-size: 12px;
+	filter: DropShadow(Color=48801E, OffX=1, OffY=1, Positive=1);
+	color: #FFFFFF;
+
+}

@@ -1,0 +1,256 @@
+/*=======下拉菜单========>>>*/
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}
+/*==========下拉菜单结束=========<<<*/
+
+/*标题*/
+.title{
+background:#BEBEBE;
+padding:3px;
+font-weight:bold;
+border-bottom:#AAA solid 1px;
+}
+
+/*======Show.asp相关==============>>>*/
+
+/*主题状态的小表格，如:精华等*/
+.topicmood{ 
+border:1px solid #F00;
+padding:3px;
+background:#FFF;
+}
+/*引用表格*/
+.quote{
+margin:5px 20px;
+padding:5px;
+background:#EEEEEF;
+border:1px solid #CCC ;
+}
+/*评帖表格*/
+.appraise{
+border:1px solid #CCC;
+background-color:#F5FAFC;
+padding:5px;
+margin:5px 20px;
+}
+/*屏蔽表格*/
+.cover{
+border:1px solid #CCC;
+width:200px;
+text-align:left;
+background-color:#F5FAFC;
+padding:5px;
+}
+/*======Show.asp相关结束====<<<*/
+/*	全局定义　*/
+body, td, div, p, input, textarea, select	{
+	color:			#666633;
+	font-family:	Tahoma;
+	font-size:		12px;
+	line-height:	16px;
+}
+input, textarea	{
+	border:			1px #787878 solid;
+}
+input, select, select	{	
+	height:			18px;
+}
+body	{
+background-color:#eff0e2;
+	margin:			0;
+	text-align:		left;
+	}
+a	{
+	color:			#666633;
+	text-decoration:none;
+}
+a:hover	{
+	color:			#6c6b76;
+	text-decoration:none;
+}
+td	{
+	border-color:	#c0c0b3;	/* 该项对firefox之类无效，对ie有效 */
+}
+form {
+	margin:			0;
+}
+/* 分类版块背景 */
+.header	{
+background-color:#789e30;
+background-image:url(headerbg.gif);
+	padding:4px;
+	}
+.tdbg	{
+
+	padding:1px;
+	}
+.grid, hr	{
+	border:			1px #c0c0b3 solid;
+	border-collapse:collapse;
+}
+.nogrid	{
+	border:			0px !important;
+}
+.fixed	{
+	table-layout:	fixed;
+	overflow:		hidden;
+}
+.smallbox	{
+	height:			11px !important;
+	height:			16px;
+	border:			0px !important;
+}
+.cursor	{
+	cursor:			hand;
+}
+#main	{
+	width: 100%;
+	margin-left:	auto;
+	margin-right:	auto;
+}
+/*==============================
+	以下内容为风格个性化而设
+================================*/
+
+/*	弹出层	*/
+#poplayer	{
+	position:		absolute;
+	z-index:		9;
+	text-align:		left;
+	border:			1px #333333 solid;
+	padding:		1px 3px;
+	background:		#F4F4F4;
+	filter:			Alpha(Opacity=0);
+}
+
+/*	自定义按钮  */
+.button	{
+	font-family:	宋体;
+	font-size:		12px;
+	f
+	border-left:	1px #c0c0b3 solid;
+	border-right:	1px #c0c0b3 solid;
+	border-top:	    1px #c0c0b3 solid;
+	border-bottom:	1px #c0c0b3 solid;
+	height:			18px;
+	padding-top:	0px;
+	padding-left:	2px;
+	background:		#dfdfd4;
+}
+.ubbButton	{
+	font-family:	宋体;
+	font-size:		12px;
+	border-right:	1px #a9a9a9 solid;
+	border-bottom:	1px #a9a9a9 solid;
+	width:			19px;
+	height:			18px;
+	padding-top:	-2px;
+	padding-left:	1px;
+	background:		#3d3d3d;
+}
+
+/*	特殊超连接，如版面分类连接  */
+.link a	{
+	color:			#cc3300;
+	font-weight:bolder;
+	text-decoration:none;
+}
+.link a:hover	{
+	color:			#ee6600;
+}
+/*	[可选项]表格标题行超连接	*/
+.titleanchor a	{
+	color:			#ffffff;
+	text-decoration:none;
+}
+.titleanchor a:hover	{
+	color:			#ffffff;
+	text-decoration:underline;
+}
+/*	提示文本颜色  */
+.t1	{
+	color:			#cc3300;
+}
+/*	醒目文本颜色  */
+.t2	{
+	color:			#ff0000;
+}
+/*	灰调文本颜色  */
+.t3	{
+	color:			#999966;
+}
+.small	{
+	font-size: 11px;
+}
+
+/*	表格背景一  */
+.bg1	{
+background:     #EFF0E2;
+}
+/*	表格背景二  */
+.bg2	{
+background:     #3d3d3d;
+}
+/*	与背景二相间的替换色 */
+.bg3	{
+	background:    #f4f4ed;
+}
+
+/*	主体内容表格 */
+.toptable	{
+	width:			98%;
+	background:		#ffffff;
+}
+.toptable1	{
+	width:			98%;
+	background:		#ffffff;
+}
+
+/*	列表名称栏 */
+.category	{
+	height:			22px;
+	padding-top:	0px;
+	padding-bottom:	0px;
+	background:		#dfdfd4;
+}
+
+/*	topic.aspx中左边用户名称  */
+.male	{
+	color:			#1B8ACD;
+	background:		white;
+	font-weight:	bold;
+}
+.female	{
+	color:			#F56BA6;
+	background:		white;
+	font-weight:	bold;
+}
+
+/* ====版规样式==== */
+.rule{margin:10px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}

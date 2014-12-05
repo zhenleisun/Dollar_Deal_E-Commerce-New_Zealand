@@ -1,0 +1,184 @@
+A:link {
+	COLOR: #3c3c3c; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #3c3c3c; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #3c3c3c; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #80d9e8; FONT-SIZE: 12px; BACKGROUND: url(bg2.gif) #00afce repeat-x center bottom; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #ffffff; COLOR: #3c3c3c; SCROLLBAR-3DLIGHT-COLOR: #00afce; SCROLLBAR-ARROW-COLOR: #00afce; SCROLLBAR-TRACK-COLOR: #f7f7f7; FONT-FAMILY: 宋体; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; TEXT-ALIGN: center
+}
+FONT {
+	LINE-HEIGHT: normal
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 15px; FONT-FAMILY: 宋体
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(); COLOR: #0094ad; BACKGROUND-COLOR: #ffffff
+}
+TD.TableTitle1 {
+	COLOR: #ffffff; BACKGROUND-COLOR: #00aece
+}
+TD.TableTitle2 {
+	BACKGROUND-COLOR: #f7f7f7
+}
+TD.TableBody1 {
+	LINE-HEIGHT: normal; BACKGROUND-COLOR: #f7f7f7
+}
+TD.TableBody2 {
+	LINE-HEIGHT: normal; BACKGROUND-COLOR: #f0f0f0
+}
+TD.TopLighNav2 {
+	BACKGROUND-COLOR: #ffffff
+}
+.tableBorder1 {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-LEFT: #ffffff 2px solid; WIDTH: 98%; BORDER-BOTTOM: #ffffff 2px solid; BACKGROUND-COLOR: #00afce
+}
+.tableBorder2 {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 98%; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #8eefff
+}
+.tableBorder3 {
+	WIDTH: 98%; BACKGROUND-COLOR: #8eefff; solid: 
+}
+.tableBorder4 {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-TOP: 0px; BORDER-LEFT: #ffffff 2px solid; WIDTH: 98%; BORDER-BOTTOM: #6595d6 0px solid
+}
+.tableBorder5 {
+	BORDER-RIGHT: #009bb7 1px solid; BORDER-TOP: #009bb7 1px solid; BORDER-LEFT: #009bb7 1px solid; BORDER-BOTTOM: #009bb7 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.tableBorder6 {
+	WIDTH: 98%; BACKGROUND-COLOR: #00afce
+}
+.singleborder {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1px; PADDING-TOP: 0px; BACKGROUND-COLOR: #00aece
+}
+#TableTitleLink A:link {
+	COLOR: #0094ad; TEXT-DECORATION: none
+}
+#TableTitleLink A:visited {
+	COLOR: #0094ad; TEXT-DECORATION: none
+}
+#TableTitleLink A:active {
+	COLOR: #0094ad; TEXT-DECORATION: none
+}
+#TableTitleLink A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#nobold {
+	FONT-WEIGHT: normal
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #3c3c3c; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma,Verdana,"宋体"
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #3c3c3c; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma,Verdana,"宋体"
+}
+TEXTAREA {
+	FONT-SIZE: 12px; COLOR: #3c3c3c; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma,Verdana,"宋体"
+}
+OPTION {
+	FONT-SIZE: 12px; COLOR: #3c3c3c; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma,Verdana,"宋体"
+}
+.normalTextSmall {
+	FONT-SIZE: 11px; COLOR: #3c3c3c; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.table {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-LEFT: #ffffff 2px solid; WIDTH: 98%
+}
+.table1 {
+	WIDTH: 98%; text: #3c3c3c
+}
+A.navlink:link {
+	COLOR: #3c3c3c; TEXT-DECORATION: none
+}
+A.navlink:visited {
+	COLOR: #3c3c3c; TEXT-DECORATION: none
+}
+A.navlink:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.BrightClass {
+	BACKGROUND-COLOR: #d7d7d7
+}
+.Redfont {
+	COLOR: red
+}
+.BlueFont {
+	COLOR: #6595d6
+}
+.ImgOnclick {
+	CURSOR: pointer
+}
+.iTableBorder {
+	WIDTH: 98%; LINE-HEIGHT: 15pt
+}
+HR {
+	WIDTH: 100%; COLOR: #00aece; HEIGHT: 1px
+}
+DIV.quote {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 5px; MARGIN: 5px 20px; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid
+}
+DIV.HtmlCode {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: #fdfddf; PADDING-BOTTOM: 5px; MARGIN: 5px 20px; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; FONT-STYLE: oblique; FONT-FAMILY: Tahoma
+}
+DIV.info {
+	PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px dotted; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; COLOR: #c5c5c5; LINE-HEIGHT: normal; PADDING-TOP: 5px
+}
+FONT.ShowTools {
+	COLOR: white; BACKGROUND-COLOR: #b88ffc
+}
+.magicframe {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.PageInput {
+	BORDER-RIGHT: #d6e0ef 1px solid; BORDER-TOP: #d6e0ef 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #d6e0ef 1px solid; BORDER-BOTTOM: #d6e0ef 1px solid; FONT-FAMILY: Arial; HEIGHT: 18px; BACKGROUND-COLOR: #fafafa
+}
+
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}
+
+input, textarea	{
+	border:			1px #D3E9AF solid;
+}
+input	{	
+	font-family:	宋体;
+	font-size:		12px;
+	height:			18px;
+	padding-top:	0px;
+	padding-left:	2px;
+}
+
+/* ====版规样式==== */
+.rule{margin:10px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}

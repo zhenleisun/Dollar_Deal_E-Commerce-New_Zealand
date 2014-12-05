@@ -1,0 +1,169 @@
+body {
+	background: #516883;
+	margin: 5px;
+	font: 9pt Tahoma, Verdana ,sans-serif;
+	color: #283a5e;
+}
+
+A:link {
+	color: #516883;
+	text-decoration: none;
+	background: transparent;
+}
+
+A:visited {
+	color: #516883;
+	text-decoration: none;
+	background: transparent;
+}
+
+A:hover {
+	color: #55c546;
+	text-decoration: underline;
+	background: transparent;
+}
+
+A:active {
+	color: #55c546;
+	text-decoration: underline;
+	background: transparent;
+}
+
+.page {
+	background: #fff;
+	color: #283a5e;
+}
+
+TD {
+	font: 9pt Tahoma, Verdana;
+}
+
+TH {
+	font: 9pt Tahoma, Verdana;
+}
+
+P {
+	font: 9pt Tahoma, Verdana;
+}
+
+LI {
+	font: 9pt Tahoma, Verdana;
+}
+
+.tborder {
+	background: #e3e6e8;
+	color: #283a5e;
+}
+
+TEXTAREA {
+	border-right: #666 1px solid;
+	border-top: #666 1px solid;
+	margin: 1px;
+	font: 9pt Tahoma, Verdana;
+	border-left: #666 1px solid;
+	border-bottom: #666 1px solid;
+	padding: 1px;
+}
+
+.bginput {
+	border-right: #666 1px solid;
+	border-top: #666 1px solid;
+	margin: 1px;
+	font: 9pt Tahoma, Verdana;
+	border-left: #666 1px solid;
+	border-bottom: #666 1px solid;
+	padding: 1px;
+}
+
+.button {
+	border-right: #666 1px solid;
+	border-top: #666 1px solid;
+	background: url(background_btn.gif) #e5e5e5 repeat-x left top;
+	margin: 1px;
+	font: 12px Tahoma, Verdana;
+	border-left: #666 1px solid;
+	border-bottom: #666 1px solid;
+	height: 24px;
+	padding: 1px;
+}
+
+SELECT {
+	margin: 1px;
+	font: 12px Tahoma, Verdana;
+	height: 24px;
+	padding: 1px;
+}
+
+OPTION {
+	font: 12px Tahoma, Verdana;
+}
+
+OPTGROUP {
+	font: 12px Tahoma, Verdana;
+}
+
+.smallfont {
+	font: 12px Tahoma, Verdana;
+}
+
+.time {
+	color: #666686;
+}
+
+.navbar {
+	font: bold 12px Tahoma, Verdana;
+	color: #283a5e;
+}
+
+.alt1 {
+	background: #f6f8fa;
+	color: #283a5e;
+	font-family: Tahoma, Verdana;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+.alt2 {
+	background: #edeff1;
+	color: #283a5e;
+	font-family: Tahoma, Verdana;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+.tabl{
+	border-left: 1px solid #d7e7f6;
+	border-right: 1px solid #d7e7f6;
+	border-bottom: 1px solid #d7e7f6;
+}
+
+.tabll{
+	border-top: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+/* ***** Global Borders - edit forum width ***** */
+.border_out {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.border_in {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+/* ***** spacers and paddings ***** */
+.spacer {
+	padding: 3px 0px 3px 0px;
+}
+
+.spacer_small {
+	padding: 2px 0px 2px 0px;
+}

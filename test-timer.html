@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<title>Test the countdown function</title>
+
+<! include the Javascript file >
+<script language="JavaScript" src="countdown.js" type="text/JavaScript"><!--
+//--></script>
+
+</head>
+<body>
+
+
+Test1: <span id="timer1"></span><br>
+
+<script>
+<!--
+var timer1;
+var time_val1=6000;
+function el(id) {
+  if (document.getElementById) {
+    return document.getElementById(id);
+  } else if (window[id]) {
+    return window[id];
+  }
+  return null;
+}
+
+function UpdateDisplay()
+{
+   document.tform1.ctd.value = GetCountdownTime(document.tform1.cs.value);
+   document.tform2.ctd.value = GetCountdownTime(document.tform2.cs.value);
+   document.tform3.ctd.value = GetCountdownTime(document.tform3.cs.value);
+   document.tform4.ctd.value = GetCountdownTime(document.tform4.cs.value);
+
+   test_val = el("test_val")
+   test_val.innerHTML = GetCountdownTime(document.tform4.cs.value);
+
+   timer1=setTimeout('UpdateDisplay()',250);
+}
+
+function GetCountdownTime(date_str)
+{
+   return( TimeToHMS( GetSecond( new Date(date_str))));   
+}
+
+/* get the countdown initial time to a specific time */
+function GetSecond(date_count_to)
+{
+   date_now = new Date();
+   
+   time_now = date_now.getTime();
+   time_count_to = date_count_to.getTime();
+
+   if(time_now >= time_count_to )
+   {
+      ret_val = 0;
+   }
+   else
+   {
+      ret_val = Math.round( ( time_count_to - time_now ) / 1000.0 );
+   }
+   
+   return (ret_val);
+}
+
+/* convert seconds value to H:MM:SS format */
+function TimeToHMS(seconds)
+{
+   sec = seconds % 60;
+   temp = ( seconds - sec ) / 60;
+   
+   minute = temp % 60;
+   hour = (temp - minute) / 60;
+   
+   if(!(isFinite(sec) && isFinite(minute) && isFinite(hour))) /* invalid time */
+   {
+      return ("");
+   }
+   
+   time_str = hour;
+   time_str += ":";   
+   time_str+=(minute<10)?("0"+minute):minute;
+   time_str+=":";
+   time_str+=(sec<10)?("0"+sec):sec;
+   
+   return (time_str); 
+}
+function updateTimer1()
+{
+   timer1 = el("timer1")
+   timer1.innerHTML = TimeToHMS(time_val1);
+   time_val1--;
+
+   setTimeout('updateTimer1()', 1000);
+}
+
+updateTimer1();
+// -->
+</script>
+
+Test2: <span id="timer2"></span><br>
+
+<script>
+<!--
+var timer2;
+var time_val2=66000;
+
+function updateTimer2()
+{
+   timer2 = el("timer2")
+   timer2.innerHTML = TimeToHMS(time_val2);
+   time_val2--;
+
+   setTimeout('updateTimer2()', 1000);
+}
+
+updateTimer2();
+// -->
+</script>
+
+Test1000: <span id="timer1000">ii</span><br>
+<script><!--
+var timer1000;
+var time_val1000=78900;
+function updateTimer1000(){
+timer1000 = el("timer1000");
+timer1000.innerHTML = TimeToHMS(time_val1000);
+time_val1000--;
+setTimeout('updateTimer1000()', 1000);}
+updateTimer1000();
+// -->
+</script>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+/*=======下拉菜单========>>>*/
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(ShowMenu.Gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR: #698CC3;
+}
+#mouseoverstyle A:hover {COLOR:ffffff;TEXT-DECORATION: none}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:20px;}
+
+/*==========下拉菜单结束=========<<<*/
+
+/*标题*/
+.title{
+background:#BEBEBE;
+padding:3px;
+font-weight:bold;
+border-bottom:#AAA solid 1px;
+}
+
+/*======Show.asp相关==============>>>*/
+
+/*主题状态的小表格，如:精华等*/
+.topicmood{ 
+border:1px solid #F00;
+padding:3px;
+background:#FFF;
+}
+/*引用表格*/
+.quote{
+margin:5px 20px;
+padding:5px;
+background:#EEEEEF;
+border:1px solid #CCC ;
+}
+/*评帖表格*/
+.appraise{
+border:1px solid #CCC;
+background-color:#F5FAFC;
+padding:5px;
+margin:5px 20px;
+}
+/*屏蔽表格*/
+.cover{
+border:1px solid #CCC;
+width:200px;
+text-align:left;
+background-color:#F5FAFC;
+padding:5px;
+}
+/*======Show.asp相关结束====<<<*/
+/*	全局定义　*/
+body, td, div, p, input, textarea, select	{
+	color:			#4D5D64;
+	font-family:	Tahoma;
+	font-size:		12px;
+	line-height:	16px;
+}
+input, textarea	{
+	border:			1px #e3e3e3 solid;
+}
+input, select, select	{	
+	height:			18px;
+}
+body	{
+	background:		#DFF5FF;
+	margin:			0;
+	text-align:		left;
+
+	scrollbar-base-color: #BDD4E3;
+}
+a	{
+	color:			#4D5D64;
+	text-decoration:none;
+}
+a:hover	{
+	color:			#ff6600;
+	text-decoration:none;
+}
+td	{
+	border-color:	#FFFFFF;	/* 该项对firefox之类无效，对ie有效 */
+}
+form {
+	margin:			0px;
+}
+.grid, hr	{
+	border:			1px #FFFFFF solid;
+	border-collapse:collapse;
+}
+.innergrid	{
+	border:			1px #D5D5D5 solid;	/* 该项的颜色部分应与td的修饰相同 */
+	border-collapse:collapse;
+}
+.nogrid	{
+	border:			0px !important;
+}
+.fixed	{
+	table-layout:	fixed;
+	overflow:		hidden;
+}
+.smallbox	{
+	height:			14px !important;
+	height:			16px;
+	border:			0px !important;
+	vertical-align: middle;
+}
+.cursor	{
+	cursor:			hand;
+}
+/*==============================
+	以下内容为风格个性化而设
+================================*/
+/*	最外层div	*/
+#page	{
+	width: 1000px;
+}
+
+/*	自定义按钮  */
+.button	{
+	font-family:	宋体;
+	font-size:		12px;
+	border-right:	1px #a9a9a9 solid;
+	border-bottom:	1px #a9a9a9 solid;
+	height:			18px;
+	padding-top:	0px;
+	padding-left:	2px;
+	background:		buttonface;
+}
+.ubbButton	{
+	font-family:	宋体;
+	font-size:		12px;
+	border-right:	1px #a9a9a9 solid;
+	border-bottom:	1px #a9a9a9 solid;
+	width:			19px;
+	height:			18px;
+	padding-top:	-2px;
+	padding-left:	1px;
+	background:		buttonface;
+}
+
+/*	特殊超连接，如版面分类连接  */
+.link a	{
+	color:			#4D5D64;
+	text-decoration:none;
+}
+.link a:hover	{
+	color:			red;
+	text-decoration:none;
+}
+
+/*	提示文本颜色  */
+.t1	{
+	color:			#000000;
+}
+/*	醒目文本颜色  */
+.t2	{
+	color:			#ff0000;
+}
+/*	灰调文本颜色  */
+.t3	{
+	color:			#4D5D64;
+}
+/*	小字体	*/
+.small	{
+	font-size: 11px !important;
+}
+
+/*	表格背景一  */
+.bg1	{
+	background:		#BFDFF0;
+}
+/*	表格背景二  */
+.bg2	{
+}
+/*	与背景二相间的替换色 */
+.bg3	{
+	background:		#D3EAF5;
+}
+
+/*	主体内容表格 */
+.toptable	{
+	width:			100%;
+	background:		#E7F3FA;
+}
+
+/*	列表头部的列名称栏 */
+.category	{
+	height:			22px;
+	padding-top:	0px;
+	padding-bottom:	0px;
+	background:		#D3EAF5;
+}
+
+/*	topic.aspx中左边用户名称  */
+.male	{
+	color:			#1B8ACD;
+	background:		#DFF5FF;
+	font-weight:	bold;
+}
+.female	{
+	color:			#F56BA6;
+	background:		#DFF5FF;
+	font-weight:	bold;
+}
+
+/* ====版规样式==== */
+.rule{margin:10px;padding:10px;background:#f5f5f5;border:1px dotted #c8c8c8;}
