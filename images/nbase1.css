@@ -10,6 +10,7 @@ img{border:0;}
 .top{ width:100%; margin:0 auto; text-align:center; background:url(ds_01.jpg) repeat-x;}
 
 .top_t{ height:94px; width:961px; margin:0 auto;}
+#everyday-timer {color:red; padding-left:170px; padding-top:45px; font-size:20px;}
 .top_c{ height:34px; background:url(ds_06.jpg) no-repeat; width:961px; margin:0 auto;}
 .top_e{ height:423px; width:961px; margin:0 auto;}
 

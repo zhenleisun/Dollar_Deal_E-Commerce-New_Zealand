@@ -15,7 +15,7 @@
     <tr>
       <td width="236" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td><img src="images/ds_08.jpg" width="236" height="48"></td>
+          <td><a href="index.asp"><img src="images/ds_08.jpg" width="236" height="48"></a></td>
         </tr>
         <tr>
           <td height="803" align="left" valign="top" background="images/ds_11.jpg"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">

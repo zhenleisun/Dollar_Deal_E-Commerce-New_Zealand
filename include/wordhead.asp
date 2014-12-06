@@ -1,11 +1,44 @@
 
 <link href="images/nbase1.css" rel="stylesheet" type="text/css" />
+
 <div class="top">
 	<div class="top_t">
 		<table width="961" border="0" cellspacing="0" cellpadding="0">
 		  <tr>
 			<td width="337" height="94" align="left"><a href="index.asp"><img src="<%=weblogo%>" width="337" height="94"/></a></td>
-			<td width="450"><img src="images/ds_03.jpg" width="450" height="94" /></td>
+			<td id="everyday-timer" width="450" background="images/ds_03.jpg" height="94" >
+                <script>
+                function TimeToHMS(seconds)
+                {
+                   sec = seconds % 60;
+                   temp = ( seconds - sec ) / 60;
+   
+                   minute = temp % 60;
+                   hour = (temp - minute) / 60;
+   
+                   if(!(isFinite(sec) && isFinite(minute) && isFinite(hour))) /* invalid time */
+                   {
+                      return ("");
+                   }
+   
+                   time_str = hour;
+                   time_str += " : ";   
+                   time_str+=(minute<10)?("0"+minute):minute;
+                   time_str+=" : ";
+                   time_str+=(sec<10)?("0"+sec):sec;
+   
+                   return (time_str); 
+                }
+                function updateTimer1()
+                {
+                    document.getElementById("everyday-timer").innerText=TimeToHMS(34*60*60-new Date().getHours()*60*60-new Date().getMinutes()*60-new Date().getSeconds());
+
+                   setTimeout('updateTimer1()', 1000);
+                }
+
+                updateTimer1();
+                </script>
+			</td>
 			<td width="174" align="left" valign="top" background="images/ds_04.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="21%" height="32">&nbsp;</td>
