@@ -28,12 +28,14 @@
         <br />
       </div></td>
     </tr>
+<!--
     <tr>
       <td align="right" class="unnamed2"><div align="right">Code£º</div></td>
       <td align="left"><div align="left">
         <input class="wenbenkuang" name="verifycode" type="text" value="<%If GetCode=9999 Then Response.Write "9999"%>" maxlength="4" size="6" />
         <img src="GetCode.asp" /></div></td>
     </tr>
+-->
     <tr>
       <td height="10" colspan="2"></td>
     </tr>
@@ -46,7 +48,7 @@
       <td height="10" colspan="2"></td>
     </tr>
     <tr>
-      <td colspan="2" align="center"><div align="center"><img src="images/dot03.gif" width="9" height="9" hspace="5" /><a href="#"  onClick="javascript:window.open('getpwd.asp','shouchang','width=450,height=300');"><font color=#000000 >Back password</font></a></div></td>
+      <td colspan="2" align="center"><div align="center"><img src="images/dot03.gif" width="9" height="9" hspace="5" /><a href="#"  onClick="javascript:window.open('getpwd.asp','shouchang','width=450,height=300');"><font color=#000000 >Forget your password?</font></a></div></td>
     </tr>
   </form>
   <%else%>
