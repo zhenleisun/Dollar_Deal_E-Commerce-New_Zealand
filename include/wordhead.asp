@@ -39,7 +39,7 @@
                 updateTimer1();
                 </script>
 			</td>
-			<td width="174" align="left" valign="top" background="images/ds_04.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<td width="250" align="left" valign="top" background="images/ds_04.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="21%" height="32">&nbsp;</td>
                 <td width="79%" align="center" style="color:#3b3b3b; font-size:12px;"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
