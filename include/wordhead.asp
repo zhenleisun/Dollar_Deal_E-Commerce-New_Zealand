@@ -30,8 +30,12 @@
                    return (time_str); 
                 }
                 function updateTimer1()
-                {
-                    document.getElementById("everyday-timer").innerText=TimeToHMS(34*60*60-new Date().getHours()*60*60-new Date().getMinutes()*60-new Date().getSeconds());
+                {   
+                    var currentHour = new Date().getHours();
+                    if(currentHour>10)
+                        document.getElementById("everyday-timer").innerText=TimeToHMS(34*60*60-currentHour*60*60-new Date().getMinutes()*60-new Date().getSeconds());
+                    else
+                        document.getElementById("everyday-timer").innerText=TimeToHMS(10*60*60-currentHour*60*60-new Date().getMinutes()*60-new Date().getSeconds());
 
                    setTimeout('updateTimer1()', 1000);
                 }
