@@ -15,7 +15,7 @@
       <td height="10" colspan="2" align="center" class="unnamed2"><div align="center">Dear customers, please login</div></td>
     </tr>
     <tr>
-      <td width="35%" align="right" class="unnamed2"><div align="right">Name£º</div></td>
+      <td width="35%" align="right" class="unnamed2"><div align="right">Email£º</div></td>
       <td width="65%" align="left"><div align="left">
         <input name="username" class="wenbenkuang" type="text" id="username2" maxlength="18" size="12" />
       </div></td>

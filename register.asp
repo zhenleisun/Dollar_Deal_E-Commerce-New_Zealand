@@ -66,11 +66,18 @@ set rs_s=nothing
 <!--
 function checkuserinfo()
 {
-   if(checkspace(document.userinfo.username.value)) {
-	document.userinfo.username.focus();
-    alert("Sorry, please fill in the user name！");
+   if(checkspace(document.userinfo.firstname.value)) {
+	document.userinfo.firstname.focus();
+    alert("Sorry, please fill in the first name！");
 	return false;
-  }
+		}
+
+    if(checkspace(document.userinfo.lastname.value)) {
+	document.userinfo.lastname.focus();
+    alert("Sorry, please fill in the last name！");
+	return false;
+    }
+
     if(checkspace(document.userinfo.userpassword.value) || document.userinfo.userpassword.value.length < 6 || document.userinfo.userpassword.value.length >20) {
 	document.userinfo.userpassword.focus();
     alert("The length of the password cannot be the empty, in 6 to 20 between, please input again！");
@@ -96,13 +103,23 @@ function checkuserinfo()
       document.userinfo.useremail.focus();
       return false;
       }
+
    }
  else
   {
    alert("Email cannot be empty！");
    document.userinfo.useremail.focus();
    return false;
-   }
+		}
+    if(document.userinfo.useremail.value != document.userinfo.useremail1.value) {
+	document.userinfo.useremail.focus();
+	document.userinfo.useremail.value = '';
+	document.userinfo.useremail1.value = '';
+    alert("Input Email Dismatch, please enter again！");
+	return false;
+		}
+
+/*
    if(checkspace(document.userinfo.userzhenshiname.value)) {
 	document.userinfo.userzhenshiname.focus();
     alert("Sorry, please fill in the real name！");
@@ -138,6 +155,7 @@ function checkuserinfo()
     alert("Sorry, you have no choice of payment！");
 	return false;
   }
+  */
 }
 function checkspace(checkstr) {
   var str = '';
@@ -236,129 +254,43 @@ function checkspace(checkstr) {
                                   <td height=15 colspan=2 bgcolor="#f1f1f1"><font color="#FF3300">* The user name and password</font> </td>
                                 </tr>
                                 <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Name：</td>
-                                  <td width=84% class=pad><input class="wenbenkuang" name="username" type="text" id="username" maxLength="18">
-                                  <font color=red>**</font>Username length cannot be less than 2 support Chinese</td>
+                                  <td width=16% align=right>First Name：</td>
+                                  <td width=84% class=pad><input class="wenbenkuang" name="username" type="text" id="firstname" maxLength="18">
+                                  <font color=red>**</font>your first name</td>
                                 </tr>
+                                  
                                 <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Password：</td>
+                                  <td width=16% align=right>Last Name：</td>
+                                  <td width=84% class=pad><input class="wenbenkuang" name="username1" type="text" id="lastname" maxLength="18">
+                                  <font color=red>**</font>Your Surname</td>
+                                </tr>
+                                  <tr bgcolor="#FFFFFF">
+                                  <td width=16% align=right>Your Email Address：</td>
+                                  <td class=pad><input class="wenbenkuang" name="useremail" type="text" id="useremail">
+                                      <font color=red>**</font></td>
+                                </tr>
+                                  <!--add the email confirmation><-->
+                                <tr bgcolor="#FFFFFF">
+                                  <td width=30% align=right>Confirm Your Email Address：</td>
+                                  <td class=pad><input class="wenbenkuang" name="useremail1" type="text" id="useremail1">
+                                      <font color=red>**</font></td>
+                                </tr>
+
+                                <tr bgcolor="#FFFFFF">
+                                  <td width=16% align=right>Telephone：</td>
+                                  <td class=pad><input class="wenbenkuang" name="usertel" maxlength="18" type="text" id="usertel"></td>
+                                </tr>
+
+                                <tr bgcolor="#FFFFFF">
+                                  <td width=16% align=right>Create Password：</td>
                                   <td class=pad><input class="wenbenkuang" name="userpassword" type="password" id="userpassword" maxLength="18">
                                       <font color=red>**</font>Length must be greater than 6 characters</td>
                                 </tr>
                                 <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Confirm password：</td>
+                                  <td width=16% align=right>Confirm Password：</td>
                                   <td class=pad><input class="wenbenkuang" name="userpassword1" type="password" id="userpassword1" maxLength="18">
                                       <font color=red>**</font></td>
                                 </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Email：</td>
-                                  <td class=pad><input class="wenbenkuang" name="useremail" type="text" id="useremail">
-                                      <font color=red>**</font></td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td align=right>Password question：</td>
-                                  <td class=pad><input class="wenbenkuang" name="quesion" type="text" id="quesion">
-                                    Forget the password hint question</td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td align=right>Answer：</td>
-                                  <td class=pad><input class="wenbenkuang" name="answer" type="text" id="answer">
-                                    The forgot password answer</td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td colspan="2" valign="middle" bgcolor="#f1f1f1"><font color="#FF3300">* User details</font></td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Real name：</td>
-                                  <td class=pad><input class="wenbenkuang" name="userzhenshiname" type="text" id="userzhenshiname" size="10">
-                                      <font color=red>**</font> In order to delivery confirmation </td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Sex：</td>
-                                  <td class=pad><input type=radio name=babysex id=Select1 value=0 checked>
-                                    Male
-                                    <input type=radio name=babysex id=Select1 value=1>
-                                    Female </td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td align="right">Select the city：</td>
-                                  <td><select size="1" class="wenbenkuang" name="szSheng" onChange=chsel()>
-                                      <option value="xxx" selected>Please select the provinces……</option>
-                                      <%dim tmpShengid
-										tmpShengid=0
-										set rs_s=server.createobject("adodb.recordset")
-										sql="select * from province  order by shengorder"
-										rs_s.open sql,conn,1,1
-										while not rs_s.eof
-										   
-										%>
-                                      <option value="<%=rs_s("ShengNo")%>" selected ><%=trim(rs_s("ShengName"))%></option>
-                                      
-										<%
-										rs_s.movenext
-									wend
-									rs_s.close
-									set rs_s=nothing
-									%>
-                                    </select>
-                                      <select size="1" class="wenbenkuang" name="szShi">
-                                        <%
-											set rs_s=server.createobject("adodb.recordset")
-											sql="select * from city where shengid="&tmpShengid&" order by shiorder"
-											rs_s.open sql,conn,1,1
-											while not rs_s.eof
-											%>
-                                        <option value="<%=rs_s("ShiNo")%>" <%if rs("szShi")=rs_s("ShiNo") then%>selected<%end if%>><%=trim(rs_s("ShiName"))%></option>
-                                        <%
-											rs_s.movenext
-										wend
-										rs_s.close
-										set rs_s=nothing
-										%>
-                                      </select>
-                                      <font color="#FF0000">**</font></td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Delivery address：</td>
-                                  <td class=pad><input class="wenbenkuang" name="shouhuodizhi" type="text" id="shouhuodizhi" size="40" maxlength="30">
-                                      <font color=red>**</font> </td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Zip code：</td>
-                                  <td class=pad><input class="wenbenkuang" name="youbian" type="text" id="youbian" maxlength="6" size="10" onKeyPress="event.returnValue=IsDigit();">
-                                      <font color=red>**</font> </td>
-                                </tr>
-                                <tr bgcolor="#ffffff">
-                                  <td align="right">QQ：</td>
-                                  <td><input name=oicq type=text class="wenbenkuang" id="oicq" size="12" maxlength="12">                                  </td>
-                                </tr>
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Telephone：</td>
-                                  <td class=pad><input class="wenbenkuang" name="usertel" maxlength="18" type="text" id="usertel">
-                                      <font color=red>**</font> </td>
-                                </tr>
-                                <%
-								'////////////送货方式
-								response.Write "<tr bgcolor=#FFFFFF><td width=30% align=right>Shipping Method：</td><td class=pad><select class=wenbenkuang name=songhuofangshi id=songhuofangshi>"
-								set rs2=server.CreateObject("adodb.recordset")
-								rs2.open "select * from deliver where fangshi=0 order by songidorder",conn,1,1
-								do while not rs2.EOF
-								response.Write "<option value="&rs2("songid")&">"&trim(rs2("subject"))&"</option>"
-								rs2.MoveNext
-								loop
-								rs2.Close
-								response.Write "</select><font color=red>**</font></td></tr>"
-								response.Write "<tr bgcolor=#FFFFFF><td width=30% align=right>Methods of payment：</td><td class=pad><select class=wenbenkuang name=zhifufangshi id=zhifufangshi>"
-								'////////////支付方式
-								rs2.Open "select * from deliver where fangshi=1 order by songidorder",conn,1,1
-								do while not rs2.EOF
-								response.Write "<option value="&rs2("songid")&">"&trim(rs2("subject"))&"</option>"
-								rs2.MoveNext
-								loop
-								rs2.Close
-								set rs2=nothing
-								response.Write "</select><font color=red>**</font></td></tr>"
-								%>
                                 <tr bgcolor="#FFFFFF">
                                   <td width=16% align="right"></td>
                                   <td class=pad><input class="go-wenbenkuang" onClick="return checkuserinfo();" type=submit name="submit" value=" Submit ">
@@ -389,27 +321,22 @@ function checkspace(checkstr) {
 				response.End
 				end if
 				set rs=server.CreateObject("adodb.recordset")
-				rs.open "select * from [user] where UserEmail='"&trim(request("useremail"))&"' or UserName='"&trim(request("username"))&"'",conn,1,1
+                
+				rs.open "select * from [user] where UserEmail='"&trim(request("useremail"))&"'",conn,1,1
 				if rs.recordcount>0 then
 				call usererr()
 				rs.close
 				else
 				rs.close
 				set rs=server.CreateObject("adodb.recordset")
+                                  
+               response.Write "<p> add new<a href=index.asp>Homepage</a></p>"
+
 				rs.open "select * from [user]",conn,1,3
 				rs.addnew
 				rs("username")=trim(request("username"))
 				rs("userpassword")=md5(trim(request("userpassword")))
 				rs("useremail")=trim(request("useremail"))
-				rs("quesion")=trim(request("quesion"))
-				rs("answer")=md5(trim(request("answer")))
-				rs("userzhenshiname")=trim(request("userzhenshiname"))
-				rs("shouhuodizhi")=trim(request("shouhuodizhi"))
-				rs("youbian")=trim(request("youbian"))
-				rs("oicq")=trim(request("oicq"))
-				rs("usertel")=trim(request("usertel"))
-				rs("songhuofangshi")=trim(request("songhuofangshi"))
-				rs("zhifufangshi")=trim(request("zhifufangshi"))
 				rs("adddate")=now()
 				rs("lastlogin")=now()
 				rs("logins")=1
@@ -418,7 +345,6 @@ function checkspace(checkstr) {
 				rs("jiaoyijine")=0
 				rs("sex")=1
 				rs("userlastip")=Request.ServerVariables("REMOTE_ADDR")
-				
 				rs.update
 				rs.close
 				set rs=nothing
