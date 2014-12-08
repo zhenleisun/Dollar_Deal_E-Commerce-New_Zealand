@@ -18,7 +18,7 @@
           <td><a href="index.asp"><img src="images/ds_08.jpg" width="236" height="48"></a></td>
         </tr>
         <tr>
-          <td height="803" align="left" valign="top" background="images/ds_11.jpg"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <td height="803" align="left" valign="top" background="images/ds_11.jpg"><table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
 			  <tbody>
 				<tr>
 					<td  height="4" align="left"></td>
