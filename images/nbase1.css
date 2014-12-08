@@ -14,6 +14,56 @@ img{border:0;}
 .top_c{ height:34px; background:url(ds_06.jpg) no-repeat; width:961px; margin:0 auto;}
 .top_e{ height:423px; width:961px; margin:0 auto;}
 
+.top_t table
+{
+	
+}
+.register
+{
+	text-align:left;
+	color:#3b3b3b;
+	font-size:12px;
+	width:100px;
+	height:32px;
+}
+
+
+.register table
+{
+	text-align:left;
+	color:#3b3b3b;
+	font-size:12px;
+	width:175px;
+	height:32px;
+}
+.register-right
+{
+	text-align:left;
+	color:#3b3b3b;
+	font-size:12px;
+	width:105px;
+	height:32px;
+}
+
+.register-left
+{
+	text-align:left;
+	width:30px;
+	height:32px;
+	padding-left:1px;
+}
+.register-left input
+{
+	width:120px;
+	margin-top:20px;
+	margin-right:10px;
+}
+
+.register-right input
+{
+	width:55px;
+	margin-top:20px;
+}
 
 .top_kuai{ color:#3b3b3b;}
 
