@@ -190,7 +190,7 @@ if request.cookies("Cnhww")("username")<>"" then
                  <form name="fkinfo" method="post" action="checkuserlogin.asp">
 				  <tr>
                     <td width="10" rowspan="3" background="images/mingle/login_bg3.gif">&nbsp;</td>
-                    <td width="75" height="30"><span class="style1">¡¤</span>Name£º</td>
+                    <td width="75" height="30"><span class="style1">¡¤</span>Email£º</td>
                     <td width="152"><input name="username" class="wenbenkuang" type="text" id="username" maxLength="18" size="18"></td>
                     <td width="133" rowspan="3" align="center"><input type=image  src="images/mingle/login_4.gif" name="imageField" value="¹ÜÀíµÇÂ½"  ></td>
                   </tr>
