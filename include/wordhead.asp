@@ -43,19 +43,28 @@
                 updateTimer1();
                 </script>
 			</td>
-			<td width="250" align="left" valign="top" background="images/ds_04.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<td class="register" width="250" align="left" valign="top" background="images/ds_04.jpg">
+            <table border="0" cellspacing="0" cellpadding="0">
+              
               <tr>
-                <td width="21%" height="32">&nbsp;</td>
-                <td width="79%" align="center" style="color:#3b3b3b; font-size:12px;"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
+                <td class="register-left">&nbsp;</td>
+                <td class="register-right"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
               </tr>
+            </table>            
+            <table border="0" cellspacing="0" cellpadding="0">           
+             <FORM action=research.asp method=post name=form2>
               <tr>
-                <td colspan="2" height="15"></td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
-                <td align="center" style="color:#3b3b3b; font-size:12px;">&nbsp;</td>
-              </tr>
-            </table></td>
+              <td  class="register-left"><INPUT class="wenbenkuang" name="searchkey" size=12/></td>
+              
+              <td  class="register-right"><INPUT name="Submit" style="background:url(images/ioc_anniu.gif) no-repeat; cursor:pointer; color:#FFF; padding:0 2px; border:none;" type="submit" value="Query"></td></tr>
+              <TR style="display: none"> 
+                     <TD><select name="anclassid">
+                     <option value="0">classify</option> 
+                      </select></TD>
+					</TR>
+              </FORM>
+            </table>
+            </td>
 		  </tr>
 	  </table>
 	</div>
