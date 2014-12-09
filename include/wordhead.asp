@@ -50,41 +50,20 @@
                 <td class="register-left">&nbsp;</td>
                 <td class="register-right"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
               </tr>
-               <!--<tr>
-                <td class="register-left">&nbsp;</td>
-                <td class="register-right"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
-              </tr>-->
-              <!--<tr>
-                <td colspan="2" height="15"></td>
-              </tr>
+            </table>            
+            <table border="0" cellspacing="0" cellpadding="0">           
+             <FORM action=research.asp method=post name=form2>
               <tr>
-              <td>&nbsp;</td>
-               <td align="center" style="color:#3b3b3b; font-size:12px;">&nbsp;ddddd</td>-->
-               
-               
-              <!--<form action="research.asp" method=post name=form2>
-               <tr>
-                <td class="register-left">&nbsp;</td>
-                <td class="register-right"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
-              </tr>
-              <tr>
-              <td><input type="text" name="keyword"/></td>
-              <td ><input name="Submit" style="background:url(images/ioc_anniu_b.gif) no-repeat; color:#FFF; padding:0px; border:none; cursor:pointer;" onclick="window.location='search.asp'" type="button" value="advanced"></td></tr>
-              </form>-->
-
-
-            </table>
-            
-            <table border="0" cellspacing="0" cellpadding="0">
+              <td  class="register-left"><INPUT class="wenbenkuang" name="searchkey" size=12/></td>
               
-              <form action="research.asp" method=post name=form2>
-              <tr>
-              <td  class="register-left"><input type="text" name="keyword"/></td>
-              <td  class="register-right"><INPUT name="Submit" style="background:url(images/ioc_anniu.gif) no-repeat; cursor:pointer; color:#FFF; padding:0 2px; border:none;" type="submit" value="Query"></td>
-              </form>
+              <td  class="register-right"><INPUT name="Submit" style="background:url(images/ioc_anniu.gif) no-repeat; cursor:pointer; color:#FFF; padding:0 2px; border:none;" type="submit" value="Query"></td></tr>
+              <TR style="display: none"> 
+                     <TD><select name="anclassid">
+                     <option value="0">classify</option> 
+                      </select></TD>
+					</TR>
+              </FORM>
             </table>
-            
-            
             </td>
 		  </tr>
 	  </table>
