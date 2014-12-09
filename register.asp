@@ -330,7 +330,7 @@ function checkspace(checkstr) {
 				rs.close
 				set rs=server.CreateObject("adodb.recordset")
                                   
-               response.Write "<p> add new<a href=index.asp>Homepage</a></p>"
+               response.Write "<p><a href=index.asp>Homepage</a></p>"
 
 				rs.open "select * from [user]",conn,1,3
 				rs.addnew
