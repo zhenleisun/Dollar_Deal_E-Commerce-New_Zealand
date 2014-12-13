@@ -43,26 +43,50 @@
                 updateTimer1();
                 </script>
 			</td>
-			<td class="register" width="250" align="left" valign="top" background="images/ds_04.jpg">
+			<td class="register" width="250" align="left" valign="top" >
             <table border="0" cellspacing="0" cellpadding="0">
               
-              <tr>
-                <td class="register-left">&nbsp;</td>
+              <tr >
+                <td class="register-left" >&nbsp;</td>
                 <td class="register-right"><a class="top_kuai" href="buy.asp?action=show">Cart</a>&nbsp;&nbsp;&nbsp;<a class="top_kuai" href="user.asp">Login</a>&nbsp;/&nbsp;<a class="top_kuai" href="register.asp">Register</a></td>
               </tr>
             </table>            
             <table border="0" cellspacing="0" cellpadding="0">           
              <FORM action=research.asp method=post name=form2>
               <tr>
-              <td  class="register-left"><INPUT class="wenbenkuang" name="searchkey" size=12/></td>
+              <td  class="search-left"><INPUT class="wenbenkuang" name="searchkey" size=12/></td>
               
-              <td  class="register-right"><INPUT name="Submit" style="background:url(images/ioc_anniu.gif) no-repeat; cursor:pointer; color:#FFF; padding:0 2px; border:none;" type="submit" value="Query"></td></tr>
+              <td  class="search-right"><INPUT name="Submit" style="background:url(images/ioc_anniu.gif) no-repeat; cursor:pointer; color:#FFF; padding:0 2px; border:none;" type="submit" value="Query"></td></tr>
               <TR style="display: none"> 
                      <TD><select name="anclassid">
                      <option value="0">classify</option> 
                       </select></TD>
 					</TR>
               </FORM>
+              
+
+              
+              
+              <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="sample@sample.com">
+<input type="hidden" name="item_name"
+value="Item Name Goes Here">
+<input type="hidden" name="item_number"
+value="Item Number Goes Here">
+<input type="hidden" name="amount" value="100.00">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="IC_Sample">
+<input type="image" src="https://www.paypal.com/
+en_US/i/btn/x-click-but23.gif"
+name="submit" alt="Make payments with payPal - it's fast,
+free and secure!">
+<img alt=""
+src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+width="1" height="1">
+</form>-->
             </table>
             </td>
 		  </tr>
