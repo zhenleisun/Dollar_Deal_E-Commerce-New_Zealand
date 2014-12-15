@@ -236,7 +236,7 @@ userid=rs("userid")
 					  %>                    </td>
                   </tr>
                   <tr bgcolor="#ffffff"> 
-                    <td height="40" colspan="2" align=center><input class="go-wenbenkuang" type="button" name="Submit22" value="Next" onClick="javascript:history.go(-1)"> 
+                    <td height="40" colspan="2" align=center><input class="go-wenbenkuang" type="button" name="Submit22" value="Previous" onClick="javascript:history.go(-1)"> 
                       <input class="go-wenbenkuang" type="submit" name="Submit4" value="OK,Next" onclick='return ssxx();'>                    </td>
                   </tr>
                 </form>
@@ -271,7 +271,7 @@ function ssxx()
     alert("Sorry, please fill in your zip code£¡");
 	return false;
   }
-  if(document.shouhuoxx.youbian.value.length!=6) {
+  if(document.shouhuoxx.youbian.value.length!=4) {
 	document.shouhuoxx.youbian.focus();
     alert("Sorry, please fill in the correct zip code£¡");
 	return false;
@@ -288,8 +288,8 @@ function ssxx()
   }
     if(checkspace(document.shouhuoxx.zhifufangshi.value)) {
 	document.shouhuoxx.zhifufangshi.focus();
-    alert("Sorry, please choose the payment method£¡");
-	return false;
+    //alert("Sorry, please choose the payment method£¡");
+	//return false;
   }
   if(document.shouhuoxx.useremail.value.length!=0)
   {

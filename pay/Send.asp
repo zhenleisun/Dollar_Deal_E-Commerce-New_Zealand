@@ -79,23 +79,31 @@ end if
 
 <body>
 
-<br><center>
-<body onLoad="javascript:document.E_FORM.submit()">
-<form method="post" action="https://pay.chinabank.com.cn/select_bank" name="E_FORM" target="_self">
+<br>
+<center>
 
-    
+<body onLoad="javascript:document.E_FORM.submit()">
+
+
+    <form method="post" action="pxaccess.asp" name="E_FORM" target="_self">
 
 	<input type="hidden" name="v_md5info" size="100"  value="<%=v_md5info%>">
 	<input type="hidden" name="v_mid" value="<%=v_mid%>">
 	<input type="hidden" name="v_oid" value="<%=v_oid%>">
-	<input type="hidden" name="v_amount" value="<%=v_amount%>">
+    <input type="hidden" name="v_amount" value="<%=v_amount%>">
 	<input type="hidden" name="v_moneytype"  value="<%=v_moneytype%>">
 	<input type="hidden" name="v_url" value="<%=v_url%>">
 	<input type="hidden" name="style" value="<%=style%>">
 	<input type="hidden" name="remark1" value="<%=remark1%>">
 	<input type="hidden" name="remark2" value="<%=remark2%>">
 
-	
-</form></center>
+    <input type="hidden" name="TxnType" value="Purchase"><br>
+    <input type="hidden" name="AmountInput" value="<%=v_amount%>"><br>
+    <input type="hidden" name="MerchantRef" value="post test"><br>
+
+    </form>    
+
+
+</center>
 </body>
 </html>
