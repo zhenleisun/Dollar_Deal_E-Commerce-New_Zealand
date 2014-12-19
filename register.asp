@@ -66,17 +66,11 @@ set rs_s=nothing
 <!--
 function checkuserinfo()
 {
-   if(checkspace(document.userinfo.firstname.value)) {
+   if(checkspace(document.userinfo.username.value)) {
 	document.userinfo.firstname.focus();
-    alert("Sorry, please fill in the first name£¡");
+    alert("Sorry, please fill in the user name£¡");
 	return false;
 		}
-
-    if(checkspace(document.userinfo.lastname.value)) {
-	document.userinfo.lastname.focus();
-    alert("Sorry, please fill in the last name£¡");
-	return false;
-    }
 
     if(checkspace(document.userinfo.userpassword.value) || document.userinfo.userpassword.value.length < 6 || document.userinfo.userpassword.value.length >20) {
 	document.userinfo.userpassword.focus();
@@ -254,15 +248,9 @@ function checkspace(checkstr) {
                                   <td height=15 colspan=2 bgcolor="#f1f1f1"><font color="#FF3300">* The user name and password</font> </td>
                                 </tr>
                                 <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>First Name£º</td>
+                                  <td width=16% align=right>UserName£º</td>
                                   <td width=84% class=pad><input class="wenbenkuang" name="username" type="text" id="firstname" maxLength="18">
-                                  <font color=red>**</font>your first name</td>
-                                </tr>
-                                  
-                                <tr bgcolor="#FFFFFF">
-                                  <td width=16% align=right>Last Name£º</td>
-                                  <td width=84% class=pad><input class="wenbenkuang" name="username1" type="text" id="lastname" maxLength="18">
-                                  <font color=red>**</font>Your Surname</td>
+                                  <font color=red>**</font>your user name</td>
                                 </tr>
                                   <tr bgcolor="#FFFFFF">
                                   <td width=16% align=right>Your Email Address£º</td>
@@ -322,7 +310,7 @@ function checkspace(checkstr) {
 				end if
 				set rs=server.CreateObject("adodb.recordset")
                 
-				rs.open "select * from [user] where UserEmail='"&trim(request("useremail"))&"'",conn,1,1
+				rs.open "select * from [user] where UserEmail='"&trim(request("useremail"))&"' or UserName='"&trim(request("username"))&"'",conn,1,1
 				if rs.recordcount>0 then
 				call usererr()
 				rs.close

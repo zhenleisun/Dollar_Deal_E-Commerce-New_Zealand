@@ -14,6 +14,7 @@ rs.Open "select * from [user] where UserEmail='"&useremail&"' and userpassword='
 if not(rs.bof and rs.eof) then
 if userpassword=rs("userpassword") then
 response.cookies("Cnhww")("useremail")=trim(request("username"))
+response.cookies("Cnhww")("username")=rs("username")
 response.cookies("Cnhww")("reglx")=rs("reglx")
 response.cookies("Cnhww")("jifen")=rs("jifen")
 response.cookies("Cnhww")("jiaoyijine")=rs("jiaoyijine")
