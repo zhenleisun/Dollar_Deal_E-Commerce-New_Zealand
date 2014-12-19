@@ -74,7 +74,7 @@ end if
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>立即在线支付</title>
+<title>Payment by DPS</title>
 </head>
 
 <body>

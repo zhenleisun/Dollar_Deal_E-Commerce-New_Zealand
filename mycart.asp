@@ -545,7 +545,7 @@ else
                               <td width="45%"  align="right" bgcolor="ffffff">Your delivery costs $£º<%=feiy%> 
                                 <br>
                               The base price $£º<%=zongji%></td>
-                              <td width="55%"  align="right" bgcolor="ffffff"><img src="images/mingle/charge.gif" width="35" height="32"><a href="help.asp?action=feiyong" target="_blank" ><font color="2782B3">Check the delivery charge description</font></a></td>
+                              <td width="55%"  align="right" bgcolor="ffffff"><img src="images/mingle/charge.gif" width="35" height="32"><a href="help.asp?action=feiyong" target="_blank" ><font color="2782B3">Terms & Conditions</font></a></td>
                             </tr>
                             <tr> 
                               <td colspan="2" align="left" bgcolor="ffffff" style="PADDING-right: 20px"><font color=red>The total order amount $£º 
