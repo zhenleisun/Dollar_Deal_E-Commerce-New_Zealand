@@ -22,12 +22,6 @@ border="0" align="center" cellpadding="0" cellspacing="0">
       </div></td>
     </tr>
     <tr>
-      <td class="unnamed2"><div align="right">Code£º</div></td>
-      <td><div align="left">
-        <input class="wenbenkuang" name="verifycode" type="text" value="<%If GetCode=9999 Then Response.Write "9999"%>" maxlength="4" size="6" />
-        <img src="GetCode.asp" /></div></td>
-    </tr>
-    <tr>
       <td height="10" colspan="2"></td>
     </tr>
     <tr>
